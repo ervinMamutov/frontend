@@ -11,8 +11,18 @@ const Navbar = () => {
             </a>
           </li>
           <li className="menu-item">
-            <a href="/" className="menu-unit">
+            <a href="/register" className="menu-unit">
+              Register
+            </a>
+          </li>
+          <li className="menu-item">
+            <a href="/log-in" className="menu-unit">
               Login
+            </a>
+          </li>
+          <li className="menu-item">
+            <a href="/log-out" className="menu-unit">
+              Logout
             </a>
           </li>
         </ul>
